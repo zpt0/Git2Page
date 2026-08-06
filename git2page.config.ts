@@ -52,7 +52,7 @@ const CONFIG = {
     medium: '',
     dev: '',
     stackoverflow: '',
-    discord: '7yhR9RekC5', // Discord server invite code (e.g. 'abc123') or full invite URL
+    discord: 'MKU8zvHBBJ', // Discord server invite code (e.g. 'abc123') or full invite URL
     telegram: '',
     website: '',
     phone: '',
