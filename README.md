@@ -13,20 +13,20 @@ Git2Page is a powerful portfolio builder that creates a stunning, personalized p
 <br/>
 
 <p>
-  <a href="https://github.com/6jt8/Git2Page/issues"><img src="https://img.shields.io/github/issues/6jt8/Git2Page" alt="Issues"/></a>
-  <a href="https://github.com/6jt8/Git2Page/stargazers"><img src="https://img.shields.io/github/stars/6jt8/Git2Page" alt="Stars"/></a>
-  <a href="https://github.com/6jt8/Git2Page/network/members"><img src="https://img.shields.io/github/forks/6jt8/Git2Page" alt="Forks"/></a>
-  <a href="https://github.com/6jt8/Git2Page/commits/master"><img src="https://img.shields.io/github/last-commit/6jt8/Git2Page/master" alt="Last Commit"/></a>
-   <a href="https://github.com/6jt8/Git2Page/blob/master/CONTRIBUTING.md"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat" alt="Contributions Welcome"/></a>
-   <a href="https://github.com/6jt8/Git2Page/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License"/></a>
+  <a href="https://github.com/zpt0/Git2Page/issues"><img src="https://img.shields.io/github/issues/zpt0/Git2Page" alt="Issues"/></a>
+  <a href="https://github.com/zpt0/Git2Page/stargazers"><img src="https://img.shields.io/github/stars/zpt0/Git2Page" alt="Stars"/></a>
+  <a href="https://github.com/zpt0/Git2Page/network/members"><img src="https://img.shields.io/github/forks/zpt0/Git2Page" alt="Forks"/></a>
+  <a href="https://github.com/zpt0/Git2Page/commits/master"><img src="https://img.shields.io/github/last-commit/zpt0/Git2Page/master" alt="Last Commit"/></a>
+   <a href="https://github.com/zpt0/Git2Page/blob/master/CONTRIBUTING.md"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat" alt="Contributions Welcome"/></a>
+   <a href="https://github.com/zpt0/Git2Page/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License"/></a>
 </p>
 
 <p>
-  <a href="https://6jt8.github.io/Git2Page"><strong>View Demo</strong></a>
+  <a href="https://zpt0.github.io/Git2Page"><strong>View Demo</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/6jt8/Git2Page/issues"><strong>Report Bug</strong></a>
+  <a href="https://github.com/zpt0/Git2Page/issues"><strong>Report Bug</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/6jt8/Git2Page/discussions"><strong>Request Feature</strong></a>
+  <a href="https://github.com/zpt0/Git2Page/discussions"><strong>Request Feature</strong></a>
 </p>
 
 ---
@@ -91,7 +91,7 @@ There are two ways to use **Git2Page**:
 
 > **Note:** After forking, replace `git2page.config.ts` with your own config from `git2page.config.template.ts`. See `git2page.config.example.ts` for reference.
 
-1. **Fork the repo** — Click [here](https://github.com/6jt8/Git2Page/fork) to fork the repo so you have your own project to customize.
+1. **Fork the repo** — Click [here](https://github.com/zpt0/Git2Page/fork) to fork the repo so you have your own project to customize.
 
 2. **Rename the repo**
    - To host at `https://<USERNAME>.github.io`, rename to `username.github.io`
@@ -111,7 +111,7 @@ There are two ways to use **Git2Page**:
    }
    ```
 
-5. **Commit the changes** — Commit to your **master** branch. Wait a few minutes for the CI/CD pipeline to publish your website to GitHub Pages. Check the [Actions](https://github.com/6jt8/Git2Page/actions) tab for progress.
+5. **Commit the changes** — Commit to your **master** branch. Wait a few minutes for the CI/CD pipeline to publish your website to GitHub Pages. Check the [Actions](https://github.com/zpt0/Git2Page/actions) tab for progress.
 
 Your portfolio will be live shortly. Any time you commit to **master**, the website updates automatically.
 
@@ -125,7 +125,7 @@ Your portfolio will be live shortly. Any time you commit to **master**, the webs
 
 As this is a Vite project, you can also host on Netlify, Vercel, Heroku, or other popular services. See the [Vite deployment guide](https://vitejs.dev/guide/static-deploy.html) for details.
 
-**[Not working? Ask in Discussions](https://github.com/6jt8/Git2Page/discussions)**
+**[Not working? Ask in Discussions](https://github.com/zpt0/Git2Page/discussions)**
 
 </div>
 
@@ -146,7 +146,7 @@ As this is a Vite project, you can also host on Netlify, Vercel, Heroku, or othe
 1. **Clone and enter the project**
 
    ```shell
-   git clone https://github.com/6jt8/Git2Page.git
+   git clone https://github.com/zpt0/Git2Page.git
    cd Git2Page
    ```
 
@@ -184,11 +184,11 @@ Show your support by starring this project! ★
 
 <br/>
 
-<a href="https://www.star-history.com/?repos=6jt8%2FGit2Page&type=timeline&logscale=&legend=bottom-right">
+<a href="https://www.star-history.com/?repos=zpt0%2FGit2Page&type=timeline&logscale=&legend=bottom-right">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=6jt8/Git2Page&type=timeline&theme=dark&logscale&legend=bottom-right" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=6jt8/Git2Page&type=timeline&logscale&legend=bottom-right" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=6jt8/Git2Page&type=timeline&logscale&legend=bottom-right" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=zpt0/Git2Page&type=timeline&theme=dark&logscale&legend=bottom-right" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=zpt0/Git2Page&type=timeline&logscale&legend=bottom-right" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=zpt0/Git2Page&type=timeline&logscale&legend=bottom-right" />
  </picture>
 </a>
 
@@ -206,7 +206,7 @@ Contributions are welcome! Whether it's a bug fix, new feature, or improved docu
 
 <br/>
 
-See the **[Contributing Guide](https://github.com/6jt8/Git2Page/blob/master/CONTRIBUTING.md)** for details.
+See the **[Contributing Guide](https://github.com/zpt0/Git2Page/blob/master/CONTRIBUTING.md)** for details.
 
 <br/>
 
@@ -214,11 +214,11 @@ See the **[Contributing Guide](https://github.com/6jt8/Git2Page/blob/master/CONT
 
 Thanks goes to these wonderful people for their contributions:
 
-<a href="https://github.com/6jt8/Git2Page/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=6jt8/Git2Page" alt="Contributors"/>
+<a href="https://github.com/zpt0/Git2Page/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=zpt0/Git2Page" alt="Contributors"/>
 </a>
 
-[Become a contributor](https://github.com/6jt8/Git2Page/blob/master/CONTRIBUTING.md)
+[Become a contributor](https://github.com/zpt0/Git2Page/blob/master/CONTRIBUTING.md)
 
 </div>
 
@@ -228,14 +228,14 @@ Thanks goes to these wonderful people for their contributions:
 
 This project is licensed under the **MIT License**.
 
-See [LICENSE](https://github.com/6jt8/Git2Page/blob/master/LICENSE) for details.
+See [LICENSE](https://github.com/zpt0/Git2Page/blob/master/LICENSE) for details.
 
 <br/><br/>
 
-<sub>Copyright &copy; 2026 [6jt8](https://github.com/6jt8). All rights reserved.</sub>
+<sub>Copyright &copy; 2026 [zpt0](https://github.com/zpt0). All rights reserved.</sub>
 
 <br/>
 
-<sub>Built with ❤️ and [Git2Page](https://github.com/6jt8/Git2Page)</sub>
+<sub>Built with ❤️ and [Git2Page](https://github.com/zpt0/Git2Page)</sub>
 
 </div>

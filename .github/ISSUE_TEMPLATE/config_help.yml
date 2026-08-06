@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         Having trouble setting up or configuring Git2Page? We're here to help!
-        Please also check the [Documentation](https://github.com/6jt8/Git2Page/wiki) and existing [Discussions](https://github.com/6jt8/Git2Page/discussions) before opening an issue.
+        Please also check the [Documentation](https://github.com/zpt0/Git2Page/wiki) and existing [Discussions](https://github.com/zpt0/Git2Page/discussions) before opening an issue.
   - type: textarea
     id: question
     attributes:

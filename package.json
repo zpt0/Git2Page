@@ -1,16 +1,16 @@
 {
-  "name": "@6jt8/git2page",
+  "name": "@zpt0/git2page",
   "description": "Create an automatic portfolio based on GitHub profile",
   "version": "1.0.0",
   "type": "module",
   "license": "MIT",
-  "author": "6jt8",
+  "author": "zpt0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/6jt8/Git2Page.git"
+    "url": "https://github.com/zpt0/Git2Page.git"
   },
   "bugs": {
-    "url": "https://github.com/6jt8/Git2Page/issues"
+    "url": "https://github.com/zpt0/Git2Page/issues"
   },
   "scripts": {
     "dev": "vite",

@@ -6,9 +6,9 @@ const CONFIG = {
     username: 'zpt0', // Your GitHub org/user name. (This is the only required config)
   },
   /**
-   * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/6jt8/6jt8.github.io, set base to '/'.
+   * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/zpt0/zpt0.github.io, set base to '/'.
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
-   * for example your repository is at https://github.com/6jt8/Git2Page, then set base to '/Git2Page/'.
+   * for example your repository is at https://github.com/zpt0/Git2Page, then set base to '/Git2Page/'.
    */
   base: '/Git2Page/',
   projects: {
@@ -21,12 +21,12 @@ const CONFIG = {
         limit: 8, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
-          projects: ['zpt0/zpt0'], // These projects will not be displayed. example: ['6jt8/my-project1', '6jt8/my-project2']
+          projects: ['zpt0/zpt0'], // These projects will not be displayed. example: ['zpt0/my-project1', 'zpt0/my-project2']
         },
       },
       manual: {
         // Properties for manually specifying projects
-        projects: [], // List of repository names to display. example: ['6jt8/my-project1', '6jt8/my-project2']
+        projects: [], // List of repository names to display. example: ['zpt0/my-project1', 'zpt0/my-project2']
       },
     },
     external: {
@@ -168,7 +168,7 @@ const CONFIG = {
 
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a
-      class="text-primary" href="https://github.com/6jt8/Git2Page"
+      class="text-primary" href="https://github.com/zpt0/Git2Page"
       target="_blank"
       rel="noreferrer"
     >Git2Page</a> and ❤️`,

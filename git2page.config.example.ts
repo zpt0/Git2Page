@@ -218,7 +218,7 @@ const CONFIG = {
 
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a
-      class="text-primary" href="https://github.com/6jt8/Git2Page"
+      class="text-primary" href="https://github.com/zpt0/Git2Page"
       target="_blank"
       rel="noreferrer"
     >Git2Page</a> and ❤️`,
