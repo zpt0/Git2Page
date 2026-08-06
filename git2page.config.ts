@@ -21,7 +21,7 @@ const CONFIG = {
         limit: 8, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
-          projects: ['6jt8/6jt8'], // These projects will not be displayed. example: ['6jt8/my-project1', '6jt8/my-project2']
+          projects: ['zpt0/zpt0'], // These projects will not be displayed. example: ['6jt8/my-project1', '6jt8/my-project2']
         },
       },
       manual: {
