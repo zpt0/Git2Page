@@ -34,14 +34,8 @@ const GitProfile = ({ config }: { config: Config }) => {
     () => getSanitizedConfig(config),
     [config],
   ) as SanitizedConfig | Record<string, never>;
-  const [theme, setTheme] = useState<string>(() => {
-    if (Object.keys(sanitizedConfig).length === 0) return DEFAULT_THEMES[0];
-    return getInitialTheme(sanitizedConfig.themeConfig);
-  });
-  const configError =
-    Object.keys(sanitizedConfig).length === 0 ? INVALID_CONFIG_ERROR : null;
+  const [theme, setTheme] = useState<string>(DEFAULT_THEMES[0]);
   const [error, setError] = useState<CustomError | null>(null);
-  const displayError = configError || error;
   const [loading, setLoading] = useState<boolean>(false);
   const [profile, setProfile] = useState<Profile | null>(null);
   const [githubProjects, setGithubProjects] = useState<GithubProject[]>([]);
@@ -126,9 +120,12 @@ const GitProfile = ({ config }: { config: Config }) => {
 
   useEffect(() => {
     if (Object.keys(sanitizedConfig).length === 0) {
+      setError(INVALID_CONFIG_ERROR);
       return;
     }
 
+    setError(null);
+    setTheme(getInitialTheme(sanitizedConfig.themeConfig));
     setupHotjar(sanitizedConfig.hotjar);
 
     const controller = new AbortController();
@@ -178,18 +175,16 @@ const GitProfile = ({ config }: { config: Config }) => {
   }, [sanitizedConfig]);
 
   useEffect(() => {
-    if (theme) {
-      document.documentElement.setAttribute('data-theme', theme);
-    }
+    theme && document.documentElement.setAttribute('data-theme', theme);
   }, [theme]);
 
   return (
     <div className="fade-in min-h-screen">
-      {displayError ? (
+      {error ? (
         <ErrorPage
-          status={displayError.status}
-          title={displayError.title}
-          subTitle={displayError.subTitle}
+          status={error.status}
+          title={error.title}
+          subTitle={error.subTitle}
         />
       ) : (
         <>

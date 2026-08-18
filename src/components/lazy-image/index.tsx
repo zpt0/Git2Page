@@ -14,6 +14,7 @@ const LazyImage = ({
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    setLoading(true);
     const imageToLoad = new Image();
     imageToLoad.src = src;
 

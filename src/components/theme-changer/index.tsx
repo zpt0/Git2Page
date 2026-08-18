@@ -33,9 +33,8 @@ const ThemeChanger = ({
 
     document.querySelector('html')?.setAttribute('data-theme', selectedTheme);
 
-    if (typeof window !== 'undefined') {
+    typeof window !== 'undefined' &&
       localStorage.setItem(LOCAL_STORAGE_KEY_NAME, selectedTheme);
-    }
 
     setTheme(selectedTheme);
   };
