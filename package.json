@@ -48,7 +48,7 @@
     "prettier": "^3.6.2",
     "sharp": "^0.35.3",
     "tailwindcss": "^4.1.11",
-    "typescript": "^5.8.3",
+    "typescript": "^7.0.2",
     "vail": "^1.0.3",
     "vite": "^7.1.7",
     "vite-plugin-html": "^3.2.2",
