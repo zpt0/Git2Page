@@ -20,3 +20,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Lockfile is machine-generated (npm / Dependabot), not hand-formatted
+package-lock.json
