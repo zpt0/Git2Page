@@ -11,15 +11,15 @@ const LazyImage = ({
   alt: string;
   [key: string]: unknown;
 }) => {
-  const [loading, setLoading] = useState(true);
+  const [loadedSrc, setLoadedSrc] = useState<string | null>(null);
+  const loading = loadedSrc !== src;
 
   useEffect(() => {
-    setLoading(true);
     const imageToLoad = new Image();
     imageToLoad.src = src;
 
     imageToLoad.onload = () => {
-      setLoading(false);
+      setLoadedSrc(src);
     };
 
     return () => {

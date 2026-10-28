@@ -120,6 +120,7 @@ const GitProfile = ({ config }: { config: Config }) => {
 
   useEffect(() => {
     if (Object.keys(sanitizedConfig).length === 0) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setError(INVALID_CONFIG_ERROR);
       return;
     }
@@ -175,7 +176,9 @@ const GitProfile = ({ config }: { config: Config }) => {
   }, [sanitizedConfig]);
 
   useEffect(() => {
-    theme && document.documentElement.setAttribute('data-theme', theme);
+    if (theme) {
+      document.documentElement.setAttribute('data-theme', theme);
+    }
   }, [theme]);
 
   return (
