@@ -49,8 +49,9 @@ Your commit message should follow this format:
   e.g.: "fix the home page button" or "add support for dark mode"
 
 For better overview, prefix your commit message with a type, followed by a colon:
+
 - `fix:` for bug fixes
-- `docs:` for documentation changes  
+- `docs:` for documentation changes
 - `feat:` for new features
 - `refactor:` for code refactoring
 - `style:` for formatting changes
